@@ -1,4 +1,4 @@
-package BintroducaoMetodos.Dominio;
+package academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Java.BintroducaoMetodos.Dominio;
 
 public class ImpressoraEstudante {
     public void imprime (Estudante estudante){

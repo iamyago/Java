@@ -1,7 +1,11 @@
-package BintroducaoMetodos.test;
+package academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Java.BintroducaoMetodos.test;
 
-import BintroducaoMetodos.Dominio.Estudante;
-import BintroducaoMetodos.Dominio.ImpressoraEstudante;
+<<<<<<< HEAD
+
+=======
+>>>>>>> ba65bdf2d03345464ac0ad846a4c185caba3b3f8
+import academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Java.BintroducaoMetodos.Dominio.Estudante;
+import academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Java.BintroducaoMetodos.Dominio.ImpressoraEstudante;
 
 public class EstudanteTeste01 {
     public static void main(String[] args) {
