@@ -1,9 +1,6 @@
 package academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Java.BintroducaoMetodos.test;
 
-<<<<<<< HEAD
 
-=======
->>>>>>> ba65bdf2d03345464ac0ad846a4c185caba3b3f8
 import academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Java.BintroducaoMetodos.Dominio.Estudante;
 import academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Java.BintroducaoMetodos.Dominio.ImpressoraEstudante;
 
@@ -21,8 +18,8 @@ public class EstudanteTeste01 {
         estudante02.idade = 22;
         estudante02.sexo = 'M';
 
-        impressora.imprime(estudante01);
-        impressora.imprime(estudante02);
+        estudante01.imprime();
+        estudante02.imprime();
 
     }
 }
