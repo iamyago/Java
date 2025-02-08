@@ -1,6 +1,7 @@
-package academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Java.BintroducaoMetodos.test;
+package academy.devjojo.maratonajava.javacore.BintroducaoMetodos.test;
 
-import academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Java.BintroducaoMetodos.Dominio.Estudante;
+import academy.devjojo.maratonajava.javacore.Aintroducaoclasses.dominio.Estudante;
+
 
 
 public class EstudanteTeste02 {
@@ -17,7 +18,6 @@ public class EstudanteTeste02 {
         estudante02.idade = 22;
         estudante02.sexo = 'M';
 
-        estudante01.imprime();
-        estudante02.imprime();
+        
     }
 }

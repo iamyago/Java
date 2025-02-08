@@ -1,8 +1,8 @@
-package academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Java.BintroducaoMetodos.test;
+package academy.devjojo.maratonajava.javacore.BintroducaoMetodos.test;
 
 
-import academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Java.BintroducaoMetodos.Dominio.Estudante;
-import academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Java.BintroducaoMetodos.Dominio.ImpressoraEstudante;
+import academy.devjojo.maratonajava.javacore.Aintroducaoclasses.dominio.Estudante;
+import academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Dominio.ImpressoraEstudante;
 
 public class EstudanteTeste01 {
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class EstudanteTeste01 {
         estudante02.idade = 22;
         estudante02.sexo = 'M';
 
-        impressora.imprime(estudante01);
         impressora.imprime(estudante02);
+        impressora.imprime(estudante01);
     }
 }
