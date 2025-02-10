@@ -7,6 +7,9 @@ public class Funcionario {
 
 
     public void imprime() {
+        if (salarios == null){
+            return;
+        }
         System.out.println(nome);
         System.out.println(idade);
         for (double salario : salarios) {
@@ -16,6 +19,9 @@ public class Funcionario {
     }
 
     public void ImprimirSalarios() {
+        if (salarios == null){
+            return;
+        }
         double media = 0;
         for (double salario : salarios) {
             media += salario;
