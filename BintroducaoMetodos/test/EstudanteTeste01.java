@@ -2,6 +2,7 @@ package academy.devjojo.maratonajava.javacore.BintroducaoMetodos.test;
 
 
 import academy.devjojo.maratonajava.javacore.Aintroducaoclasses.dominio.Estudante;
+import academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Dominio.Funcionario;
 import academy.devjojo.maratonajava.javacore.BintroducaoMetodos.Dominio.ImpressoraEstudante;
 
 public class EstudanteTeste01 {

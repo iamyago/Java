@@ -1,0 +1,1 @@
+Me chamo Yago e estou fazendo um curso do DevJojo e seguindo um RoadMap em java, até então um excelente curso introdutorio, que vai do básico ao avançado, tudo que estou aprendendo irá ficar nesse repositorio além de outros cursos futuros, espero concluir e depois jogar um projeto aqui no github como forma de aprendizado.
