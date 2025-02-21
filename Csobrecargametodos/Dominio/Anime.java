@@ -24,6 +24,7 @@ public class Anime {
     }
 
     public void setTipo(String tipo){
+        this.tipo = tipo;
     }
 
     public String getTipo() {
