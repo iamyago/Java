@@ -27,5 +27,5 @@ public class Pessoa {
         return this.idade;
     }
     // variaveis de referencias so acessam valores de atributos publico.
-    // alt + insert = cria os sets e os get sozinhos. 
+    // alt + insert = cria os sets e os get sozinhos.
 }
