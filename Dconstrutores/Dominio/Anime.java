@@ -1,16 +1,29 @@
-package academy.devjojo.maratonajava.javacore.Csobrecargametodos.Dominio;
+package academy.devjojo.maratonajava.javacore.Dconstrutores.Dominio;
 
 public class Anime {
     private String tipo;
     private String nome;
     private int episodios;
     private String genero;
+    private String estudio;
+
+    public Anime(String nome, String estudio){
+        this();
+        this.nome = nome;
+        this.estudio = estudio;
+        System.out.println("dentro do construtor");
+    }
 
     public Anime(){
-
+        System.out.println("Estou aq");
     }
+
+    // não da pra chamar fora de um construtor ( this(); )
+    // obrigatoriamente precisa ser a primeira linha
     // precisa de um construtor para dar origem a um objeto
-    // sobrecarga de metodos é vc tem o mesmo nome no metodo porem o tipo ou a quantidade dos parametros são diferentes
+    // o java cria um construtor automaticamente com o nome da class/metodo
+    // sobrecarga de metodos vc tem o mesmo nome no metodo porem o tipo ou a quantidade dos parametros são diferentes
+    // sobrecarga funcionam com construtores
     public void init(String nome, String tipo, int episodios){
         this.nome = nome;
         this.tipo = tipo;
