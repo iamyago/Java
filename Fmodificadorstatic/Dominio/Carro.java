@@ -9,6 +9,16 @@ public class Carro {
     // pertence a classe e nao mais ao objeto
     // o atributo pertence a classe e os objetos compartilham do mesmo valor.
 
+    public static void setVelocidadeLimite(double velocidadeLimite){
+        Carro.velocidadeLimite = velocidadeLimite;
+    }
+
+    // metodo static quando os metodos não acessam uma variavel da instancia
+
+    public static double getVelocidadeLimite(){
+        return velocidadeLimite;
+    }
+
     public Carro(String nome, double velocidadeMaxima) {
         this.nome = nome;
         this.velocidadeMaxima = velocidadeMaxima;
