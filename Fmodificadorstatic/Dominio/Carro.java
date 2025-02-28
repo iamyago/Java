@@ -4,9 +4,9 @@ public class Carro {
     private String nome;
     private double velocidadeMaxima;
     public static double velocidadeLimite = 250;
-
+    // modificador Static
     // propriedade q é independente do objeto
-    // pertence a classe e nao mais ao objeto
+    // metodo static pertence a classe e nao mais ao objeto
     // o atributo pertence a classe e os objetos compartilham do mesmo valor.
 
     public static void setVelocidadeLimite(double velocidadeLimite){
