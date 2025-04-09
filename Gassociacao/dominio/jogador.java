@@ -5,16 +5,10 @@ public class jogador {
     private String nome;
     private Time time;
 
-    public void imprime() {
-        System.out.println(this.nome);
-        if (time != null){
-            System.out.println(time.getNome());
-        }
+    public jogador(String nome) {
+        this.nome = nome;
     }
 
-    public jogador (String nome){
-        System.out.println(nome);
-    }
 
     public Time getTime() {
         return time;
@@ -25,10 +19,18 @@ public class jogador {
     }
 
     public String getNome() {
-        return nome;
+
+        return this.nome;
     }
 
     public void setNome(String nome) {
         this.nome = nome;
         }
+
+    public void imprime() {
+        System.out.println(this.nome);
+        if (nome != null){
+            System.out.println(time.getNome());
+        }
+    }
 }
