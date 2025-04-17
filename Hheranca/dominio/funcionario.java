@@ -5,6 +5,10 @@ public class funcionario extends Pessoa {
     // ou quando quer utilizar polimorfismo
     private double salario;
 
+    public funcionario(String nome){
+        super(nome);
+    }
+
     // tag super esta se referindo ao objeto mais generico (super classe)
     // no caso atributos que esta sendo importado Pessoa.
 
