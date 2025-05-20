@@ -5,9 +5,6 @@ package academy.devjojo.maratonajava.javacore.jkenum.dominio;
 //    }
 // mas que não é uma boa pratica.
 public class cliente {
-    public enum TipoPagamento {
-        DEBITO, CREDITO
-    }
     private String nome;
     private TipoCliente tipoCliente;
     private TipoPagamento tipoPagamento;
