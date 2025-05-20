@@ -1,5 +1,5 @@
 package academy.devjojo.maratonajava.javacore.jkenum.dominio;
-// Enumeração - serve como
+// Enumeração - serve como enumeração, como debito e credito.
 // é possivel colocar ENUM dentro de uma classe: public enum TipoPagamento {
 //        DEBITO, CREDITO
 //    }
