@@ -5,6 +5,7 @@ public enum TipoCliente {
     PESSOA_JURIDICA(2);
 
     // metodo final funciona como valor unico.
+    // n pode ser sobrescrito
     public final int VALOR;
 
     TipoCliente(int valor) {
