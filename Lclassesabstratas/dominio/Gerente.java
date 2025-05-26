@@ -22,4 +22,5 @@ public class Gerente extends Funcionario {
     // não pode criar um objeto de um classe abstrata.
     // metodo e enumeracao
     // classes abstratas podem ter metodos abstratos ou concretos.
+    // metodos abstratos nao tem corpo.
 }
