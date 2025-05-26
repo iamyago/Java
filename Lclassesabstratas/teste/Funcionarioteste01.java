@@ -9,5 +9,6 @@ public class Funcionarioteste01 {
         Gerente gerente = new Gerente("naruto", 5000);
         Desenvolvedor desenvolvedor = new Desenvolvedor("ginka", 12000);
         System.out.println(gerente);
+        System.out.println(desenvolvedor);
     }
 }
