@@ -8,8 +8,8 @@ public class TaxaTeste {
     public static void main(String[] args) {
         Computador computador = new Computador("M4", 5000);
         Tomate tomate = new Tomate("tomate", 30);
-        CalculadoraImposto.calcularImpostoPc(computador);
+        CalculadoraImposto.calcularImposto(computador);
         System.out.println("------");
-        CalculadoraImposto.calcularImpostoTomate(tomate);
+        CalculadoraImposto.calcularImposto(tomate);
     }
 }
