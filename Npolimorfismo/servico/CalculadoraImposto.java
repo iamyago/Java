@@ -16,6 +16,5 @@ public class CalculadoraImposto {
             Tomate tomate = (Tomate) produto;
             System.out.println(tomate.getDataValidade());
         }
-
     }
 }
