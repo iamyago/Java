@@ -1,6 +1,5 @@
-package academy.devjojo.maratonajava.javacore.Oexception.exception.test;
+package academy.devjojo.maratonajava.javacore.Oexception.runtime.test;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.sql.SQLException;
 
