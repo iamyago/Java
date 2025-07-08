@@ -15,11 +15,14 @@ public class WrappersTest01 {
 
         Byte byteW = 1;
         Short shortW = 1;
-        Integer intW = 10;
+        Integer intW = 10;  // autoboxing - Java faz a conversão automatica do tipo primitivo para wrapper
         Float floatW = 10F;
         Double doubleW = 10D;
         Character charW = 'W';
         Boolean booleanW = false;
+
+        int i = intW; // unboxing - wrapper para o tipo primitivo
+        // parse é um metodo statico
 
     }
 }
