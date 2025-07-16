@@ -9,6 +9,5 @@ public class StringTest01 {
         System.out.println(nome.replace("o", "a")); // remove caracter especifico
         System.out.println(numeros.substring(0,2));
         System.out.println(nome.trim()); // remove espaços de caracter em branco
-
     }
 }
