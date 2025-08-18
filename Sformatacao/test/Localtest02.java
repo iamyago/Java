@@ -14,5 +14,6 @@ public class Localtest02 {
         for (String isoCountry : isoCountries) {
             System.out.print(isoCountry+ " ");
         }
+        // getCurrencyInstance - formataçaõ de moedas.
     }
 }
