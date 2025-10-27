@@ -20,10 +20,8 @@ public class PatterMatcherTest04 {
         // ()
         // $
         // {n,m} de n até m
-         int numerohex = 0x59f86A;
-        System.out.println(numerohex);
-        String regex = "0[xX]([0-9a-f])+\\s";
-        String texto = "abaaba";
+        String regex = "([a-zA-Z-0-9\\._-])+@([a-zA-Z])+\\.([a-zA-Z])";
+        String texto = "yago@gmail.com, 123das@gmail.com, #@!zoro@gmail.com, teste@gmail.com, sakura@gmail.com";
     //  String texto2 = "12 0x 0X 0xFFABC 0x109 0x1";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto);
