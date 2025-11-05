@@ -7,9 +7,10 @@ public class Estudante{
 
     public void imprime(){
         // SEMRPE BOM INDENTIFICAR COM A TAG THIS.
-        System.out.println(this.nome);
-        System.out.println(this.idade);
-        System.out.println(this.sexo);
+//        System.out.println(this.nome);
+//        System.out.println(this.idade);
+//        System.out.println(this.sexo);
+        nome = "joao";
 
     }
     
